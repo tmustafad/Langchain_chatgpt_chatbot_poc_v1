@@ -22,7 +22,7 @@ auth_config = weaviate.AuthApiKey(api_key= 'D0YP0KAiCZLpzQxqwKlUwcXNH07uUcvC3twE
 weaviate_url = 'https://chatbot-poc-s5b9f3g9.weaviate.network'
 
 client = weaviate.Client(url = weaviate_url,
-                         additional_headers={"X-OpenAI-Api-Key":'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'},
+                         additional_headers={"X-OpenAI-Api-Key":'<OPEN AI TOKEN>'},
                             auth_client_secret=auth_config,startup_period=10)
 
 # define input structure
