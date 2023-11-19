@@ -14,7 +14,7 @@ print('Data size '+ str(len(data)))
 text_splitter = RecursiveCharacterTextSplitter()
 docs = text_splitter.split_documents(data)
 
-embeddings = OpenAIEmbeddings(openai_api_key='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')
+embeddings = OpenAIEmbeddings(openai_api_key='<OPEN AI TOKEN>')
 
 # connect to weaviate cluster
 
