@@ -1,0 +1,3 @@
+langchain
+weaviate-client
+openai
